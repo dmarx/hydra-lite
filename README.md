@@ -10,9 +10,11 @@ I like Hydra, but it just does too much. Stripping out the parts I like since th
 * CLI override
 * current working directory is default location for configs
 * simple customization
+* config validation that promotes defaults for missing values
 
 ## Stuff I don't want
 
 * automated working directory changing/renaming and output capture/redirection
 * installation directory is default location for configs
 * complex macro registration system
+* config validation that throws errors when `Optional[]` typed fields are not present
